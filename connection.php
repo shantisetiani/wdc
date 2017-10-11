@@ -1,7 +1,7 @@
-<<?php 
+<?php 
 
 $host   = "localhost";
-$user   = admin;
+$user   = "";
 $pass   = "";
 $name   = "WDCHimsisfo";
  
