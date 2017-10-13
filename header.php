@@ -3,6 +3,8 @@
 <head>
     <title></title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/jquery.dataTables.min.css">
 </head>
 <body>
     <nav class="nav">
