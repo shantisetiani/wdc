@@ -52,6 +52,8 @@
 footer{
 	width: 100%;
 	background-color: yellow;
+	margin-top: 50px;
+	padding: 15px 30px;
 }
 
 .logo{
@@ -527,4 +529,70 @@ footer{
 	.col-xl-blank-12 {
 		margin-left: 100%;
 	}
+}
+
+.filter{
+	display: inline-block;
+	width: 100%;
+	background-color: #f1f1f1;
+}
+
+.filter .right{
+	margin-right: 100px;
+}
+
+.dataTable{
+ 	display:block;
+ 	text-align:center;
+    margin: 12px 0;
+    line-height: 80px;
+}
+
+.dataTable select{
+ display:inline-block;
+ padding:0 15px;
+ height:40px;border:0;
+ outline:1px solid #c9c9c9;
+ outline-offset:-1px;
+ outline-style:outline;
+ background:#fff;
+ -webkit-border-radius:0;
+ -khtml-border-radius:0;
+ -moz-border-radius:0;
+ -ms-border-radius:0;
+ -o-border-radius:0;
+ border-radius:0;
+}
+
+#searchText {
+    background-image: url('../img/sprites-icon/icon-search.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin: 12px 0;
+}
+
+#table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 18px;
+}
+
+#table th, #table td {
+    padding: 12px;
+}
+
+#table tr {
+    border-bottom: 1px solid #ddd; 
+}
+
+#table tr.header, #table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.center{
+	text-align: center;
 }
