@@ -10,7 +10,7 @@
         <ul class="left"><img src=""></ul>
         <ul class="identity right">
             <span><img src=""></span>
-            <span>Hi,</span>
+            <span>Hi,<?php $namauser='Roberto'; echo " ".$namauser;?></span>
         </ul>
     </nav>
     <nav class="nav-left">

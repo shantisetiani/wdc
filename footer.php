@@ -1,7 +1,8 @@
 <div class="row">
 	<footer>
 	<div><img src="assets/img/logo WDC.png" class="logo"></div>
-</footer>
+	blablablabla
+	</footer>
 </div>
 
 <script type="text/javascript" src="assets/js/jquery.js"></script>

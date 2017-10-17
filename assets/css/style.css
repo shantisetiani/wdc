@@ -24,11 +24,11 @@
 
 .nav-left{
 	position: fixed;
-	top: 10%;
+	top: 20%;
 	left: 0;
 	z-index: 1;
-	height: 80%;
-	width: 15%;
+	height: 40%;
+	width: 12%;
 	padding-top: 20px;
 	background-color: rgba(254, 232, 208, 0.6);
 }
@@ -70,11 +70,14 @@ footer{
 	width: 82%;
 }
 
+
+
 .row::after {
 	content: "";
 	display: table;
 	clear: both;
 }
+
 
 .col-ss-1, .col-ss-2, .col-ss-3,
 .col-ss-4, .col-ss-5, .col-ss-6,
