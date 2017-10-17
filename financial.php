@@ -1,19 +1,6 @@
 <?php include( 'header.php' ); ?>
 
 <div class="container">
-    <!-- <div class="filter">
-        <ul class="dataTable left" id="tab_length"><label>Show
-            <select name="tab_length" aria-controls="tab" class="">
-                <option value="10">10</option>
-                <option value="25">25</option>
-                <option value="50">50</option>
-                <option value="100">100</option>
-            </select> entries</label>
-        </ul>
-        <ul class="right">
-            <input type="text" id="searchText" onkeyup="search()" placeholder="Search for names..">
-        </ul>
-    </div> -->
     <table id="table">
         <thead>
             <tr>
