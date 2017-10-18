@@ -18,8 +18,8 @@
         <div class="nav-link"><a href="#">Statistic</a></div>
         <div class="nav-link"><a href="#">Live Support</a></div>
         <div class="nav-link"><a href="#">Forum</a></div>
-        <div class="nav-link"><a href="#">News & Events</a></div>
-        <div class="nav-link"><a href="#">Financial</a></div>
+        <div class="nav-link"><a href="newsEvent.php">News & Events</a></div>
+        <div class="nav-link"><a href="financial.php">Financial</a></div>
     </nav>
   
 </body>

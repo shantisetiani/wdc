@@ -54,14 +54,15 @@ footer{
 	width: 100%;
 	background-color: yellow;
 	margin-top: 50px;
-	padding: 15px 30px;
-	margin-right: -8px;
-	margin-left: -8px;
+	margin-left: -7.6px;
+	padding: 12px 0;
+	padding-right: 16px;
 }
 
 .logo{
 	height: 40px;
 	width: 40px;
+	margin: 5px 15px;
 }
 
 .container{
