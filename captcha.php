@@ -8,7 +8,7 @@ $_SESSION["Captcha"]="";
  
 
 $gambar = imagecreate(125, 50);
-//warna
+
 imagecolorallocate($gambar, 69, 179, 157);
  
 $color = imagecolorallocate($gambar, 253, 252, 252);
@@ -16,7 +16,7 @@ $font = "assets/font/Allura-Regular.otf";
 $ukuran_font = 14;
 $posisi = 32;
 for($i=0;$i<=5;$i++) {
-	// jumlah karakter
+	
 	$angka=rand(0, 9);
  
 	$_SESSION["Captcha"].=$angka;
