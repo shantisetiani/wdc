@@ -17,7 +17,7 @@
         <div class="board nav-link"><a href="#">Home</a></div>
         <div class="nav-link"><a href="#">Statistic</a></div>
         <div class="nav-link"><a href="#">Live Support</a></div>
-        <div class="nav-link"><a href="#">Forum</a></div>
+        <div class="nav-link"><a href="forum.php">Forum</a></div>
         <div class="nav-link"><a href="newsEvent.php">News & Events</a></div>
         <div class="nav-link"><a href="financial.php">Financial</a></div>
     </nav>

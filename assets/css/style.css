@@ -67,7 +67,7 @@ footer{
 
 .container{
 	margin-top: 5%;
-	margin-left: 17%;
+	margin-left: 15%;
 	width: 82%;
 }
 
@@ -541,29 +541,6 @@ footer{
 	margin-right: 100px;
 }
 
-.dataTable{
- 	display:block;
- 	text-align:center;
-    margin: 12px 0;
-    line-height: 80px;
-}
-
-.dataTable select{
- display:inline-block;
- padding:0 15px;
- height:40px;border:0;
- outline:1px solid #c9c9c9;
- outline-offset:-1px;
- outline-style:outline;
- background:#fff;
- -webkit-border-radius:0;
- -khtml-border-radius:0;
- -moz-border-radius:0;
- -ms-border-radius:0;
- -o-border-radius:0;
- border-radius:0;
-}
-
 #searchText {
     background-image: url('../img/sprites-icon/icon-search.png');
     background-position: 10px 12px;
@@ -611,4 +588,39 @@ h3,p{
 
 .description{
 	margin: 15px 0;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.forumBox{
+	display: table;
+	width: 90%;
+	border: 2px solid;
+	border-color: #d4c6b6;
+	background-color: #ebebeb;
+	padding: 10px 0;
+	padding-left: 12px;
+	animation: 2s ease-out 0s 1 slideInFromLeft;
+}
+
+.joinBtn{
+	float: right;
+	margin-top: 20px;
+	margin-right: 15px;
+    border-radius: 8px 8px 8px 8px;
+    padding: 5px 20px;
+    background-color: #c7b299;
+    border: none;
+    color: white;
+}
+
+.pagination{
+	margin-top: 20px;
 }
