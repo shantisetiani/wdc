@@ -50,4 +50,6 @@
     </div>
 </div>
 
-<?php include( 'footer.php' ); ?>
+<?php
+include 'chat.php';
+ include( 'footer.php' ); ?>
