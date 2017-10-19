@@ -17,6 +17,7 @@ table.dataTable {
 table.dataTable thead th,
 table.dataTable tfoot th {
   font-weight: bold;
+  background-color: #B0BED9;
 }
 table.dataTable thead th,
 table.dataTable thead td {
@@ -57,9 +58,6 @@ table.dataTable thead .sorting_asc_disabled {
 table.dataTable thead .sorting_desc_disabled {
   background-image: url("../img/sort/sort_desc_disabled.png");
 }
-table.dataTable tbody tr {
-  background-color: #ffffff;
-}
 table.dataTable tbody tr.selected {
   background-color: #B0BED9;
 }
@@ -87,6 +85,11 @@ table.dataTable.cell-border tbody tr:first-child th,
 table.dataTable.cell-border tbody tr:first-child td {
   border-top: none;
 }
+
+tbody tr.even{
+  background-color: #d0d9e9;
+}
+
 table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd {
   background-color: #f9f9f9;
 }

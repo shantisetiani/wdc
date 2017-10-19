@@ -1,4 +1,4 @@
-<div class="row">
+<div class="col-ss-12 col-s-12 col-m-12 col-l-12 col-xl-12">
 	<footer>
 	<div><img src="assets/img/logo WDC.png" class="logo"></div>
 	blablablabla

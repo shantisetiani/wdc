@@ -2,44 +2,44 @@
 
 <div class="container">
     <div>
-        <div class="col-m-6">
+        <div class="col-ss-12 col-s-12 col-m-6 col-l-6 col-xl-6">
             <div class="forumBox">
-                <span class="col-m-12">
+                <span class="col-ss-12 col-s-12 col-m-12 col-l-12 col-xl-12">
                     <h3>Judul</h3>
                 </span>
-                <span class="col-m-12">
+                <span class="col-ss-12 col-s-12 col-m-12 col-l-12 col-xl-12">
                     <p>Oleh :</p>
                 </span>
-                <span class="col-m-6" style="margin-top: 20px">
+                <span class="col-ss-6 col-s-6 col-m-6 col-l-6 col-xl-6" style="margin-top: 20px">
                     <p>Reply :</p>
                     <p>Posted :</p>
                 </span>
-                <span class="col-m-blank-6"></span>
-                <span class="col-m-6">
+                <span class="col-ss-blank-6 col-s-blank-6 col-m-blank-6 col-l-blank-6 col-xl-blank-6"></span>
+                <span class="col-ss-6 col-s-6 col-m-6 col-l-6 col-xl-6">
                     <input type="button" value="Join" class="joinBtn">
                 </span>
             </div>
         </div>
-        <div class="col-m-6">
+        <div class="col-ss-12 col-s-12 col-m-6 col-l-6 col-xl-6">
             <div class="forumBox">
-                <span class="col-m-12">
+                <span class="col-ss-12 col-s-12 col-m-12 col-l-12 col-xl-12">
                     <h3>Judul</h3>
                 </span>
-                <span class="col-m-12">
+                <span class="col-ss-12 col-s-12 col-m-12 col-l-12 col-xl-12">
                     <p>Oleh :</p>
                 </span>
-                <span class="col-m-6" style="margin-top: 20px">
+                <span class="col-ss-6 col-s-6 col-m-6 col-l-6 col-xl-6" style="margin-top: 20px">
                     <p>Reply :</p>
                     <p>Posted :</p>
                 </span>
-                <span class="col-m-blank-6"></span>
-                <span class="col-m-6">
+                <span class="col-ss-blank-6 col-s-blank-6 col-m-blank-6 col-l-blank-6 col-xl-blank-6"></span>
+                <span class="col-ss-6 col-s-6 col-m-6 col-l-6 col-xl-6">
                     <input type="button" value="Join" class="joinBtn">
                 </span>
             </div>
         </div>
     </div>
-    <div class="col-m-12">
+    <div class="col-ss-12 col-s-12 col-m-12 col-l-12 col-xl-12">
         <div class="pagination">
             <a href="#" id="prev"><</a>
             <?php for($i=1; $i<=5; $i++): ?>
@@ -50,9 +50,7 @@
     </div>
 </div>
 
-<div class="col-m-12">
 <?php include( 'footer.php' ); ?>
-</div>
 
 <script type="text/javascript">
     $(document).ready(function(){
