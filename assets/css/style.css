@@ -58,6 +58,9 @@ footer{
 	background-color: yellow;
 	margin-top: 50px;
 	padding: 12px 0;
+	max-width: 100% !important;
+	margin-left: -8px;
+	padding-right: 15px;
 }
 
 .logo{
