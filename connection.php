@@ -1,9 +1,9 @@
 <?php 
 
 $host   = "localhost";
-$user   = "";
+$user   = "root";
 $pass   = "";
-$name   = "WDCHimsisfo";
+$name   = "wdchimsisfo";
  
 mysql_connect("$host", "$user", "$pass");
 mysql_select_db("$name");

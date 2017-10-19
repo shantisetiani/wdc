@@ -9,6 +9,7 @@
 	<div class="kotak">		
 
 		<?php 
+		include 'connection.php';
 		if(isset($_GET['pesan'])){
 			if($_GET['pesan'] == "gagal"){
 				echo "<p>Username dan Password tidak sesuai.</p>";
@@ -18,6 +19,9 @@
 			}
 			if($_GET['pesan'] == "pwkosong"){
 				echo "<p>Password harap diisi terlebih dahulu.</p>";
+			}
+			if($_GET['pesan'] == "ngaco"){
+				echo "<p>Username dan password tidak vaild.</p>";
 			}
 			else if($_GET['pesan'] == "salah"){
 				echo "<p>Captcha tidak sesuai.</p>";
