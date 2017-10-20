@@ -15,7 +15,7 @@
     </nav>
     <nav class="nav-left">
         <div class="nav-link"><a href="#">Home</a></div>
-        <div class="nav-link"><a href="#">Statistic</a></div>
+        <div class="nav-link"><a href="statistic.php">Statistic</a></div>
         <div class="nav-link"><a href="#">Live Support</a></div>
         <div class="nav-link"><a href="forum.php">Forum</a></div>
         <div class="nav-link"><a href="newsEvent.php">News & Events</a></div>
